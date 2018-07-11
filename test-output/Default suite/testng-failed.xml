@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qait.automation.RobotclassDemo.Loginqait">
+        <methods>
+          <include name="verifyLoginpage"/>
+          <include name="verifyloginsuccessfully"/>
+          <include name="launchbrowser"/>
+          <include name="checkmousehover"/>
+          <include name="check_exit_intent"/>
+          <include name="checksortedtables"/>
+          <include name="checkBrokenimage"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

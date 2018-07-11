@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ASDW0041" name="com.qait.automation.RobotclassDemo.Loginqait" tests="9" failures="0" timestamp="11 Jul 2018 10:20:37 GMT" time="29.733" errors="0">
+  <testcase name="launchbrowser" time="6.533" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="checkBrokenimage" time="5.574" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="check_exit_intent" time="2.7" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="checksortedtables" time="5.088" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="verifyLoginpage" time="1.947" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="verifyloginsuccessfully" time="3.022" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="checkmousehover" time="0.555" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="checkeditor" time="3.716" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+  <testcase name="checkstatuscode" time="0.567" classname="com.qait.automation.RobotclassDemo.Loginqait"/>
+</testsuite>

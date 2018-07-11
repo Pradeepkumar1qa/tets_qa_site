@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29733" started-at="2018-07-11T15:50:08Z" finished-at="2018-07-11T15:50:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29733" started-at="2018-07-11T15:50:08Z" finished-at="2018-07-11T15:50:37Z">
+      <class name="com.qait.automation.RobotclassDemo.Loginqait">
+        <test-method status="PASS" signature="launchbrowser()" name="launchbrowser" duration-ms="6533" started-at="2018-07-11T15:50:08Z" finished-at="2018-07-11T15:50:14Z">
+        </test-method>
+        <test-method status="PASS" signature="checkBrokenimage()" name="checkBrokenimage" duration-ms="5574" started-at="2018-07-11T15:50:14Z" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.launchbrowser" finished-at="2018-07-11T15:50:20Z">
+        </test-method>
+        <test-method status="PASS" signature="check_exit_intent()" name="check_exit_intent" duration-ms="2700" started-at="2018-07-11T15:50:20Z" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.checkBrokenimage" finished-at="2018-07-11T15:50:22Z">
+        </test-method>
+        <test-method status="PASS" signature="checksortedtables()" name="checksortedtables" duration-ms="5088" started-at="2018-07-11T15:50:22Z" description="chcking sorted tables" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.check_exit_intent" finished-at="2018-07-11T15:50:27Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyLoginpage()" name="verifyLoginpage" duration-ms="1947" started-at="2018-07-11T15:50:27Z" description="checking login page" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.checksortedtables" finished-at="2018-07-11T15:50:29Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyloginsuccessfully()" name="verifyloginsuccessfully" duration-ms="3022" started-at="2018-07-11T15:50:29Z" description="checking login page" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.verifyLoginpage" finished-at="2018-07-11T15:50:32Z">
+        </test-method>
+        <test-method status="PASS" signature="checkmousehover()" name="checkmousehover" duration-ms="555" started-at="2018-07-11T15:50:32Z" description="checking mouse hover" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.verifyloginsuccessfully" finished-at="2018-07-11T15:50:33Z">
+        </test-method>
+        <test-method status="PASS" signature="checkeditor()" name="checkeditor" duration-ms="3716" started-at="2018-07-11T15:50:33Z" description="checking editor functionality" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.checkmousehover" finished-at="2018-07-11T15:50:37Z">
+        </test-method>
+        <test-method status="PASS" signature="checkstatuscode()" name="checkstatuscode" duration-ms="567" started-at="2018-07-11T15:50:37Z" description="checking status code page" depends-on-methods="com.qait.automation.RobotclassDemo.Loginqait.checkeditor" finished-at="2018-07-11T15:50:37Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
